@@ -90,6 +90,12 @@ pip install -r requirements.txt
 ```bash
 mkdir data
 # Download 'netflix_titles.csv' from Kaggle and place it in ./data
+
+pip install kaggle
+mkdir data && cd data
+kaggle datasets download shivamb/netflix-shows
+unzip netflix-shows.zip
+
 ```
 
 ---
